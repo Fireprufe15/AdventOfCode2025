@@ -13,7 +13,9 @@ var inputPath = Console.ReadLine();
 var input = File.ReadAllText(inputPath);
 Console.WriteLine("Select operation:");
 Console.WriteLine("1. Day 1 part 1");
-Console.WriteLine("2. Day 1 part 2");
+Console.WriteLine("1.2. Day 1 part 2");
+Console.WriteLine("2. Day 2 part 1");
+Console.WriteLine("2.2. Day 2 part 2");
 var operation = Console.ReadLine();
 
 switch (operation)
@@ -21,13 +23,19 @@ switch (operation)
 	case "1":
 		Day1.SolvePart1(input);
 		break;
-	case "2":
+	case "1.2":
 		Day1.SolvePart2(input); 
+		break;
+	case "2":
+		Day2.SolvePart1(input);
+		break;
+	case "2.2":
+		Day2.SolvePart2(input);
 		break;
 	case "101":
         Day1.AISolvePart1(input);
         break;
-	case "102":
+	case "101.2":
         Day1.AISolvePart2(input);
         break;
 	default:
