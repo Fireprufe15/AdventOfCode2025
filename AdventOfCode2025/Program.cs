@@ -38,6 +38,12 @@ switch (operation)
     case "3.2":
         Day3.SolvePart2(input);
         break;
+	case "4":
+		Day4.SolvePart1(input);
+		break;
+	case "4.2":
+		Day4.SolvePart2(input);
+		break;
     case "101":
         Day1.AISolvePart1(input);
         break;
