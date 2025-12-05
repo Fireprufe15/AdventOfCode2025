@@ -11,11 +11,7 @@ Console.WriteLine("Welcome to the Elf on a Shelf Project Management System");
 Console.WriteLine("Please paste input file path:");
 var inputPath = Console.ReadLine();
 var input = File.ReadAllText(inputPath);
-Console.WriteLine("Select operation:");
-Console.WriteLine("1. Day 1 part 1");
-Console.WriteLine("1.2. Day 1 part 2");
-Console.WriteLine("2. Day 2 part 1");
-Console.WriteLine("2.2. Day 2 part 2");
+Console.WriteLine("Enter the day number and, if part 2 is desired, Day.2:");
 var operation = Console.ReadLine();
 
 switch (operation)
@@ -43,6 +39,12 @@ switch (operation)
 		break;
 	case "4.2":
 		Day4.SolvePart2(input);
+		break;
+	case "5":
+		Day5.SolvePart1(input);
+		break;
+	case "5.2":
+		Day5.SolvePart2(input);
 		break;
     case "101":
         Day1.AISolvePart1(input);
