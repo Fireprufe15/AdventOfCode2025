@@ -46,6 +46,12 @@ switch (operation)
 	case "5.2":
 		Day5.SolvePart2(input);
 		break;
+		case "6":
+			Day6.SolvePart1(input);
+		break;
+	case "6.2":
+		Day6.SolvePart2(input);
+		break;
     case "101":
         Day1.AISolvePart1(input);
         break;
