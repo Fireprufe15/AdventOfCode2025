@@ -64,7 +64,13 @@ switch (operation)
     case "8.2":
         Day8.SolvePart2(input);
         break;
-	default:
+    case "9":
+        Day9.SolvePart1(input);
+        break;
+    case "9.2":
+        Day9.SolvePart2(input);
+        break;
+    default:
 		break;
 }
 
