@@ -58,11 +58,11 @@ switch (operation)
     case "7.2":
         Day7.SolvePart2(input);
         break;
-    case "101":
-        Day1.AISolvePart1(input);
+    case "8":
+        Day8.SolvePart1(input);
         break;
-	case "101.2":
-        Day1.AISolvePart2(input);
+    case "8.2":
+        Day8.SolvePart2(input);
         break;
 	default:
 		break;
